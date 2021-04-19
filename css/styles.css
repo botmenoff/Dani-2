@@ -1,0 +1,164 @@
+/* Reglas por defecto */
+
+* {
+    box-sizing: border-box;
+    /* font */
+    font-family: "Averta CY", sans-serif;
+}
+
+body {
+    margin: 0;
+}
+
+
+/* Clear floats after the columns */
+
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+
+/*section-1*/
+
+.section-1 {
+    width: 100%;
+    float: left;
+    padding: 50px 100px;
+}
+
+.section-1 h1 {
+    color: aquamarine;
+    font-size: 85px;
+}
+
+
+/*section-2*/
+
+.section-2 {
+    width: 50%;
+    float: left;
+    padding: 70px 150px;
+}
+
+.section-2 h2 {
+    font-size: 80px;
+    color: grey;
+}
+
+.p1 {
+    font-size: 40px;
+}
+
+.section-2 img {
+    border-radius: 20px;
+}
+
+
+/*section-3*/
+
+#section-3 {
+    width: 100%;
+    float: left;
+}
+
+.section-3 {
+    width: 50%;
+    float: left;
+    padding: 70px 150px;
+}
+
+.section-3 h2 {
+    font-size: 80px;
+    color: grey;
+}
+
+.section-3 img {
+    border-radius: 20px;
+}
+
+
+/*section-4*/
+
+#section-4 {
+    width: 100%;
+    float: left;
+}
+
+.section-4 h2 {
+    font-size: 80px;
+    color: grey;
+}
+
+.section-4 {
+    width: 50%;
+    float: left;
+    padding: 70px 150px;
+}
+
+.section-4 img {
+    border-radius: 20px;
+}
+
+
+/*section-5*/
+
+#section-5 {
+    width: 100%;
+    float: left;
+    background-color: black;
+}
+
+.section-5 h2 {
+    color: white;
+    padding: 10px 150px;
+}
+
+.section-5-1 {
+    width: 25%;
+    float: left;
+    color: white;
+    padding: 10px 150px;
+}
+
+@media screen and (max-width: 1000px) {
+    /*section-2*/
+    .section-2 {
+        width: 100%;
+    }
+    .section-2 h2 {
+        font-size: 30px;
+    }
+    .section-2 p {
+        font-size: 20px;
+    }
+    /*section-3*/
+    .section-3 {
+        width: 100%;
+        background-color: antiquewhite;
+    }
+    .section-3 h2 {
+        font-size: 30px;
+    }
+    .section-3 p {
+        font-size: 20px;
+    }
+    /*section-4*/
+    .section-4 {
+        width: 100%;
+    }
+    .section-4 h2 {
+        font-size: 40px;
+    }
+    .section-4 p {
+        font-size: 20px;
+    }
+    /*section-5*/
+    .section-5 {
+        padding: 0px;
+    }
+    .section-5-1 {
+        width: 50%;
+    }
+}
